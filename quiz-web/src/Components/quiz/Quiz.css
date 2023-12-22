@@ -9,7 +9,7 @@
 }
 
 .container{
-    padding: 1vh 2vw;
+    padding: 1vh 2vw 2vw 2vw;
     font-family: 'Poppins', sans-serif;
     width: 60vw;
     height: 70vh;
@@ -19,6 +19,7 @@
     flex-direction: column;
     background-image:url(../../assets/container-background.png);
     justify-content: space-around;
+    color: #1b576f;
 }
 
 .container hr{
@@ -42,7 +43,7 @@ ul{
     display: flex;
     flex-direction: column;
     padding: 0 13vw;
-    margin-top: 4vh;
+    margin-bottom: 2vw;
 }
 
 li{
@@ -56,7 +57,7 @@ li{
     padding: 1.5vh 1vw;
     border-radius: 1vw;
     color: #1b576f;
-    /* justify-content: center; */
+
 }
 
 li:hover,button:hover{
@@ -98,13 +99,14 @@ li:hover,button:hover{
 } */
 
 .wrong{
-    font-weight: 600;
+    font-weight: 550;
     background: #fb9c9c;
     color: red;
     /* letter-spacing: 0.1vw; */
 }
 .wrong:hover{
     color: red;
+    /* color: ; */
 }
 
 /* 
@@ -131,6 +133,9 @@ li div{
     text-align: center;
     color: #9A4FD5;
     font-size: 2.5vw;
+    background-color: #fff3b0;
+    border-radius: 1vw;
+    padding: 1vw 0;
 }
 
 .container1{
@@ -180,4 +185,22 @@ li div{
 button:active {
     box-shadow: 3px 5px #0000005a;
     transform: translateY(2px);
+}
+
+.header--theme{
+    padding: 0 1vw;
+    justify-content: space-between;
+}
+
+.header--theme button{
+    margin: 0;
+    padding: 0.7vw;
+}
+
+.highlight--next{
+    padding: 0 15vw;
+}
+
+.highlight--next button{
+    width: 9.3vw;
 }
